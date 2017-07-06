@@ -1,0 +1,400 @@
+@charset "UTF-8";
+@import url("../css/reset.css");
+
+
+body {
+	font-family: "Georgia", sans-serif;
+	line-height: 1.1em;
+	color:black;
+	background-image: url("../imagem/background.png");
+	font-size: 1.0em;	
+	font-style: normal;
+}
+
+
+
+h1 a {
+	height: 134px; 
+	width:130px;
+	display: block;
+	text-indent: -9999px;
+	background-image: url("../imagem/logo_GK.png");
+	margin-left: 40px;
+
+}
+
+h2 {
+	border-bottom: 2px solid;
+	border-color: #000000;
+	margin-top: 30px;
+	font-size: 1.2em; 
+}
+
+figure {
+	border:1px;
+	text-align: center ;
+	padding: 15px;
+	margin:30px;
+}
+
+figcaption {
+	margin-top: 10px;
+
+}
+
+p {
+	margin-top:15px;
+	padding-left: 45px;
+	padding-right: 45px;
+	line-height: 1.5em; 
+	text-align: justify;
+}
+
+div#container {
+	margin: auto;
+	width: 940px;	
+}
+
+
+
+figure#centro-distribuicao {
+	margin: 0 auto;
+	width: auto;
+	
+}
+
+figure#familia-teles {
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+
+#diferenciais ul {
+	margin-left: 18px;
+}
+
+#diferenciais li {
+	margin: 5px;
+}
+
+ul {
+	margin-top: 15px;
+	margin-right: 60px;
+
+}
+
+a:link {
+	text-decoration: none; 
+	color:green;
+
+}
+
+a:hover {
+	text-decoration: underline;
+
+}
+
+
+
+#rodape {
+	color: #ccc;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-right: 0;
+	margin-left: 0;
+	background-image: url("../imagem/fundo-rodape.png");
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#caixa-footer img {
+	vertical-align: middle;
+	margin-left: 30px
+}
+
+#caixa-footer ul {
+	position: relative;
+	padding: 20px;
+	list-style-type: none;
+	float: right;
+}
+
+#caixa-footer ul li {
+	padding: 5px;
+	display: inline;
+}
+
+.social {
+	position: absolute;
+	margin-top: 2px;
+	margin-right: 20px;
+
+}
+
+.social a[href*="http://www.facebook.com/gkfashion"] {
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+	background: url("../imagem/sociais.png") no-repeat 0 0;
+}
+.social a[href*="http://www.twitter.com/gkfashion"] {
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+	background: url("../imagem/sociais.png") no-repeat -89px 0;
+}
+.social a[href*="http://plus.google.com/gkfashion"] {
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+	background: url("../imagem/sociais.png") no-repeat -44.5px 0;
+}
+
+
+
+/* CSS INDEX */
+
+header {
+	position: relative;
+}
+
+.sacola {
+	background-image: url("../imagem/sacola.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+	text-align: right;
+	width: 140px;
+	position: absolute;
+	top:0px;
+	right:0px;
+}
+
+
+
+.menu-principal {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.menu-principal li {
+	display:inline;
+	padding: 8px;
+}
+
+.menu-principal a {     
+
+	text-decoration: none;
+}
+
+.menu-principal a:hover {    
+	color:black;
+}
+
+ 
+
+.busca {
+	background-color: #dcdcdc;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 10px;
+	width: 230px;
+	float: left;	
+	border-top-left-radius: 10px; 
+	border-top-right-radius: 10px;
+	
+}
+
+.menu-departamentos {
+	clear: left; 
+	background-color: #dcdcdc;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 10px;
+	width: 230px;
+	float: left;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.busca h2 {
+	margin: 10px;
+}
+
+.busca form {
+	margin: 10px;
+}
+
+.menu-departamentos h2 {
+	margin: 10px;
+}
+
+.busca input {
+	vertical-align: middle;
+}
+
+.busca input[type="search"] {   
+	width: 170px;
+	height: 25px;
+	border-radius: 10px;
+}
+
+.caixa-destaque {
+	margin-top: 10px;
+}
+
+.menu-departamentos ul {
+	margin: 1px;
+}
+
+.menu-departamentos li {
+	background-color: white;
+	margin-bottom: 1px; 
+	padding: 5px 10px; 
+}
+
+.menu-departamentos a {
+	color:gray;
+	text-decoration: none;
+}
+
+.menu-departamentos li ul {
+	display: none;
+}
+
+.menu-departamentos li:hover ul {
+	display: block;
+}
+
+.menu-departamentos li li a:before { 
+	content: "-"; 
+	padding-right: 3px;
+}
+
+
+
+.paineis h2:before {
+	content: '\2756';
+	opacity: 0.8;
+}
+
+section#novidades {
+	float:left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 445px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 3px #000000;
+}
+
+section#mais-vendidos {
+	float:right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 445px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 3px #000000;
+}
+
+.paineis li {
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	height: auto;
+	margin: 2px;
+	padding-bottom: 10px;
+	transition: 0.7s ease-out; 
+}
+
+.paineis li:hover {
+  	box-shadow: 10px 10px 10px #000000;
+  	transition: 0.7s ease-in;
+  	transform: scale(1.2) rotate(-5deg);
+}
+
+.paineis h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.paineis a {
+	color: #333;
+	text-align: center;
+	text-decoration: none;
+}
+
+.paineis figure, .paineis figcaption {
+	margin:0;
+	padding: 0;
+}
+
+
+.contato input[type=text], .contato [type=email], .contato textarea {
+
+    width: 100%; 
+    box-sizing: border-box; 
+    resize: vertical;
+
+}
+
+
+.contato input[type=submit] {
+    background-color: black;
+    color: white;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+
+.contato input[type=submit]:hover {
+    background-color: grey;
+}
+
+b{
+	color: red;
+}
+
+.contato label {
+	margin-left: 10px;
+}
+
+form{
+	margin-top: 30px;
+}
+
+
+table, tr, td{
+	border: 0.15em black solid;
+}
+
+tr, td{
+	padding: 0.6em;
+	text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 10px;
+
+
+}
+tr:nth-child(odd){
+	background-color: grey;
+}
+tr:nth-child(even){
+	background-color: snow;
+}
+
+
+
+textarea{
+	height: 200px;
+}

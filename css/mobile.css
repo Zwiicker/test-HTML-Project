@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+	
+	div#container {
+	  	width: 96%;
+	}
+
+	body {
+		font-size: 0.85em;
+	}
+
+	h1 {
+	  	text-align: center;
+	}
+
+	.sacola {
+		width: 35%;
+
+	}
+
+	.menu-principal {
+		position: static;
+		text-align: center;
+	}
+
+	.menu-principal ul li {
+	  	display: inline-block;
+	 	margin: 5px;
+	}
+
+	.busca, .menu-departamentos, #imagem-destaque {
+	  	margin-right: 0;
+	  	width: 100%;
+	}
+
+	.paineis {
+		margin:auto;
+	}
+
+	section#novidades {
+		width:auto;
+	}
+
+	section#mais-vendidos {
+		width: auto;
+	}
+
+	.paineis li {
+	  	width: 30%;
+	}
+
+	.paineis img {
+	  	width: 100%;
+	}
+
+	#rodape {
+		width: 100%;
+	}
+
+	#caixa-footer {
+		height: 120px;
+	}
+
+
+	#sobre p {
+		padding: 17px;
+	}
+
+	#sobre img {
+		max-width: 100%;
+	}
+
+	#historia p {
+		padding: 17px;
+	}
+
+	#historia img {
+		max-width: 100%;
+	}
+
+}
+
